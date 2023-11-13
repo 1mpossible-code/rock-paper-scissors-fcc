@@ -1,9 +1,9 @@
 # Description: Rock Paper Scissors AI
 # I use the same strategy as Abbey, but I use a more tracking (4 layers instead of 2)
 # Based on my tests, the best results are achieved with 4 layers and start with 'S'
-# But the test are passed exactly with 3 layers and start with 'P' for Abbey.
+# However, you can balance try it out to play with different starts and values since they affect the results a lot
 LAYERS = 4
-START = 'P'
+START = 'S'
 
 play_order = [{}]
 CHOICES = ('R', 'P', 'S')
